@@ -1,12 +1,13 @@
 # Seed BF4 Populate
-Seed BF4 para Popular Servidor
 
-# Atualizações EA
+BF4 Seed for Popular Server
 
-A EA frequentemente veem fazendo mudanças na Battlelog, 
-quando parar de funcionar precisa entender o que mudou para ajustar o seed.
+# EA updates
 
-# Teste realizado hoje: 13/05/2023
+EA often sees making changes to Battlelog,
+when it stops working need to understand what changed to adjust the seed.
+
+# Test performed today: 05/13/2023
 
 - RequestOpenBattlelog status : 200
 - Found Regex Url Login: true
@@ -28,14 +29,14 @@ quando parar de funcionar precisa entender o que mudou para ajustar o seed.
 - RequestExitServer status : 200
 - ResponseBody status : {"type":"success","message":"CANCELED","data":{}}
 
-# Quais contas de BF4 utilizar ?
+# Which BF4 accounts to use?
 
-Somente contas novas sem verificação por e-mail
+Only new accounts without email verification
 
-# Como usar ?
+# How to use ?
 
-Apesar configurar e executar a classe SeedBF4PopulateTest.
+Just configure and run the SeedBF4PopulateTest class.
 
-# Porque estou compartilhando ?
+# Why am I sharing?
 
-Não quero ficar dando manutenção ! :D
+I don't want to be doing maintenance! :D
