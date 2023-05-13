@@ -34,11 +34,11 @@ public class BattlefieldSeed {
 
     public void execute(){
         for (PlayerSeed playerSeed: this.playerSeeds) {
-            populate(playerSeed, this.serverID, playerSeed.getUser(), playerSeed.getPassword());
+            populate(this.serverID, playerSeed.getUser(), playerSeed.getPassword());
         }
     }
 
-    private void populate(PlayerSeed playerSeed, String serverId, String user, String password) {
+    private void populate(String serverId, String user, String password) {
         RequestSeed requestSeed = new RequestSeed();
         String responseOpen = requestOpen.execute(requestSeed);
         Response responseEntryLoginPage = requestLoginPage.execute(requestSeed, responseOpen);
