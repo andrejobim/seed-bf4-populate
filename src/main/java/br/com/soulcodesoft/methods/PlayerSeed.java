@@ -11,9 +11,6 @@ public class PlayerSeed {
         this.password = password;
     }
 
-    public PlayerSeed() {
-    }
-
     public String getUser() {
         return user;
     }

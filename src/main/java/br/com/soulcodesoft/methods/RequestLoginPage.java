@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 public class RequestLoginPage {
 
-    private String REGEX_LOGIN_BTN_HREF = "<a\\s+class=\"login-btn\"\\s+href=\"([^\"]+)\"";
+    private final String REGEX_LOGIN_BTN_HREF = "<a\\s+class=\"login-btn\"\\s+href=\"([^\"]+)\"";
 
     public Response execute(RequestSeed requestSeed, String responseRequestOpen) {
 
