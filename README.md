@@ -19,11 +19,11 @@ when it stops working need to understand what changed to adjust the seed.
 - Found Regex GameId: true
 - Found Regex PersonalId: true
 - Found Regex PostChecksum: true
-- gameId : 18014398529247748
+- gameId : XXXX
 - personaId : XXXX
 - postChecksum : XXXX
 - RequestJoinServer status : 200
-- ResponseBody status : {"type":"success","message":"RESERVATION", "data":{"gameId":"18014398529247748","userId":"XXX",
+- ResponseBody status : {"type":"success","message":"RESERVATION", "data":{"gameId":"XXXX","userId":"XXX",
 - "invitePersona":null,"game":2048,"sourceGuid":"8aa7c9b2-7b57-4ef2-b463-b680548f06d0","expirationTimeout":60,"personaId":"XXXX",
 - "voipAllowed":true,"platform":1,"role":1,"gameServer":null,"joinState":"JOINED_GAME"}}
 - RequestExitServer status : 200
